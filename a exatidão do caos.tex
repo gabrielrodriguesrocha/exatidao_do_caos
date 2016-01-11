@@ -1,6 +1,6 @@
 \documentclass[20pt]{book}
-\usepackage{fancyhdr,poemscol,xltxtra}
-%\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr,poemscol}
+\usepackage[utf8]{inputenc}
 \usepackage[margin=1.5in]{geometry}
 \usepackage[brazilian]{babel}
 \usepackage{marginnote}
@@ -250,12 +250,16 @@ OU
 \clearpage
 
 \newlength{\wa}
-\settowidth{\wa}{black states in the hour of}
+\settowidth{\wa}{\large{black states in the hour of}}
 
 \vspace*{\fill}
-\center{Escritos sobre \textsc{labirintos}}
+\begin{large}\center{Escritos sobre \textsc{labirintos}}\end{large}
+\vspace{4ex}
 \center{i.e.}
-\center{A exatidão\\
+\vspace{4ex}
+\begin{large}
+\center{
+A exatidão\\
 \begin{tabular}{ll}
 \makebox[\wa][r]{do} & Caos\\
 \text{} & Caos\\
@@ -266,6 +270,8 @@ black states in the hour of & Chaos\\
 \text{} & Kháos\\
 \text{} & Caus\\
 \end{tabular}
+}
+\end{large}
 \vspace{\fill}
 
 \clearpage
@@ -275,11 +281,30 @@ black states in the hour of & Chaos\\
 \clearpage
 
 \vspace*{\fill}
+\begin{minipage}{\textwidth}
+\large
 \center{O}
 \center{LABIRINTO\\
 \qquad DENTRO\\
 \qquad \quad DO}
 \center{MONSTRO}
+\end{minipage}
 \vspace{\fill}
+
+
+\clearpage
+
+\include{l01}
+\clearpage
+\include{l02}
+\clearpage
+\include{l03}
+\clearpage
+\include{l04}
+\clearpage
+\include{l05}
+\clearpage
+\include{l06}
+\clearpage
 
 \end{document}
